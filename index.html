@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="style_media.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+</head>
+
+<body id="home">
+
+  <div class="header">
+    <a class="logo" href="#home">KidsWorld</a>
+    <div class="header-right">
+      <a href="#songs" class="fa fa-volume-up">&nbsp;Songs</a>
+      <a href="#vedio" class="fa fa-play">&nbsp;Vedio</a>
+    </div>
+  </div>
+<br><br><br><br>
+  <div>
+      <h1>Lets Have Fun</h1>
+    <div id="Naming">
+      <h2 id="start">Enter your Name</h2>
+      <input type="text" id="name" placeholder="Name" required>
+      <button type="submit" class="button" id="Click" onclick="updateName(event)">Click Here</button>
+      <p id="NameSet"></p>
+    </div>
+<br>
+  <div id="content">
+    <div id="songs">
+      <br>
+      <center>
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <h3>Songs</h3>
+            </div>
+            <div class="flip-box-back">
+              <h3>Listen And Feel</h3>
+            </div>
+          </div>
+        </div>
+      </center>
+      <br><br><br><br>
+      <div>
+        <center>
+          <div id="audio-padding">
+          <audio controls>
+           <source src="audio/Baa  Baa  Black Sheep.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          Baa Baa Black Sheep
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+          <audio controls>
+            <source src="audio/If You re Happy and You Know It.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           If You're Happy and You Know It
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+          </div>
+          <div>
+          <audio controls>
+            <source src="audio/Johny Johny Yes Papa.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          Johny Johny Yes Papa
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+          <audio controls>
+            <source src="audio/Twinkle Twinkle Little Star.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          Twinkle Twinkle Little Star
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      </div></div>
+      </center>
+    </div>
+    <br>
+    <div id="vedio">
+      <br>
+      <center>
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <h3>Vedio</h3>
+            </div>
+            <div class="flip-box-back">
+              <h3>Watch And Enjoy</h3>
+            </div>
+          </div>
+        </div>
+      </center>
+      <br><br><br><br><br>
+        <div><center>
+
+          <div>
+          <iframe id="vedio1" src="https://www.youtube.com/embed/W_B2UZ_ZoxU" 
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+          </iframe>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+
+          <iframe id="vedio2" src="https://www.youtube.com/embed/gV7CBMM9tng" 
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+          </iframe>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+<br>
+        <div>
+          <iframe id="vedio3" src="https://www.youtube.com/embed/9yOxx_4oOMs" 
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+          </iframe>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+          <iframe id="vedio4" src="https://www.youtube.com/embed/yHioWLdgnMI" 
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+          </iframe>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+<br><br>
+        </div></center>
+    </div></div>
+  </div>
+  <div class="footer">
+  <a href="www.facebook.com" class="fa fa-facebook"></a>
+  <a href="www.google.com" class="fa fa-google"></a>
+  <a href="www.twitter.com" class="fa fa-twitter"></a>
+  <a href="www.twitter.com" class="fa fa-youtube"></a>
+  </div>
+</body>
+</html>
